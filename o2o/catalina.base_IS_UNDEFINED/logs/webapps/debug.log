@@ -1,0 +1,3 @@
+2018-02-06 14:55:49.304 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\5\2018020614554991281.jpg
+2018-02-06 14:55:49.322 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\5\2018020614554991281.jpg
+2018-02-06 14:55:49.322 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
