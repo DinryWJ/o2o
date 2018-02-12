@@ -57,12 +57,18 @@ public class ImageUtil {
 			dirPath.mkdirs();
 		}
 	}
-//	public static void main(String[] args) throws IOException {
-//		
-//		System.out.println(basePath);
-//		Thumbnails.of(new File("E:/a.jpg")).size(1920, 1080)
-//				.watermark(Positions.BOTTOM_RIGHT, ImageIO.read(new File(basePath + "/a.jpg")), 0.25f)
-//				.outputQuality(0.9f).toFile("E:/newa.jpg");
-//	}
+	
+	public static void deleteFileOrPath(String storePath){
+		File fileOrPath = new File(PathUtil.getImgBasePath()+storePath);
+		if(fileOrPath.exists()){
+			if(fileOrPath.isDirectory()){
+				File files[] = fileOrPath.listFiles();
+				for(int i=0;i<files.length;i++){
+					files[i].delete();
+				}
+			}
+			fileOrPath.delete();
+		}
+	}
 
 }
