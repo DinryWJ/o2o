@@ -50,7 +50,7 @@ public class ShopManagementController {
 			Object currentShopObj = request.getSession().getAttribute("currentShop");
 			if(currentShopObj==null){
 				modelMap.put("redirect", true);
-				modelMap.put("url", "/o2o/shop/shoplist");
+				modelMap.put("url", "/o2o/shopadmin/shoplist");
 			}else{
 				Shop currentShop = (Shop)currentShopObj;
 				modelMap.put("redirect", false);
@@ -70,7 +70,7 @@ public class ShopManagementController {
 	private Map<String, Object> getShopList(HttpServletRequest request) {
 		Map<String, Object> modelMap = new HashMap<String, Object>();
 		PersonInfo user = new PersonInfo();
-		user.setUserId(8L);
+		user.setUserId(9L);
 		user.setName("test");
 		request.getSession().setAttribute("user", user);
 		user = (PersonInfo) request.getSession().getAttribute("user");
