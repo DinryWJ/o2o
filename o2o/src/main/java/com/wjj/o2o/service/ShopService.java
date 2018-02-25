@@ -1,7 +1,6 @@
 package com.wjj.o2o.service;
 
-import java.io.InputStream;
-
+import com.wjj.o2o.dto.ImageHolder;
 import com.wjj.o2o.dto.ShopExecution;
 import com.wjj.o2o.entity.Shop;
 import com.wjj.o2o.exceptions.ShopOperationException;
@@ -25,7 +24,7 @@ public interface ShopService {
 	 * @return ShopExecution shopExecution
 	 * @throws Exception
 	 */
-	ShopExecution addShop(Shop shop, InputStream shopImgInputStream, String fileName) throws ShopOperationException;
+	ShopExecution addShop(Shop shop, ImageHolder thumbnail) throws ShopOperationException;
 
 	/**
 	 * 更新店铺信息（从店家角度）
@@ -38,5 +37,5 @@ public interface ShopService {
 	 * @return
 	 * @throws RuntimeException
 	 */
-	ShopExecution modifyShop(Shop shop, InputStream shopImgInputStream, String fileName) throws ShopOperationException;
+	ShopExecution modifyShop(Shop shop, ImageHolder thumbnail) throws ShopOperationException;
 }

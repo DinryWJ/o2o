@@ -18,6 +18,7 @@ import org.springframework.web.multipart.commons.CommonsMultipartFile;
 import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.wjj.o2o.dto.ImageHolder;
 import com.wjj.o2o.dto.ShopExecution;
 import com.wjj.o2o.entity.Area;
 import com.wjj.o2o.entity.PersonInfo;
@@ -40,23 +41,23 @@ public class ShopManagementController {
 	private AreaService areaService;
 	@Autowired
 	private ShopCategoryService shopCategoryService;
-	
+
 	@RequestMapping(value = "/getshopmanagementinfo", method = RequestMethod.GET)
 	@ResponseBody
 	private Map<String, Object> getShopManagementInfo(HttpServletRequest request) {
 		Map<String, Object> modelMap = new HashMap<String, Object>();
 		long shopId = HttpServletRequestUtil.getLong(request, "shopId");
-		if(shopId<=0){
+		if (shopId <= 0) {
 			Object currentShopObj = request.getSession().getAttribute("currentShop");
-			if(currentShopObj==null){
+			if (currentShopObj == null) {
 				modelMap.put("redirect", true);
 				modelMap.put("url", "/o2o/shopadmin/shoplist");
-			}else{
-				Shop currentShop = (Shop)currentShopObj;
+			} else {
+				Shop currentShop = (Shop) currentShopObj;
 				modelMap.put("redirect", false);
 				modelMap.put("shopId", currentShop.getShopId());
 			}
-		}else{
+		} else {
 			Shop currentShop = new Shop();
 			currentShop.setShopId(shopId);
 			request.getSession().setAttribute("currentShop", currentShop);
@@ -64,7 +65,7 @@ public class ShopManagementController {
 		}
 		return modelMap;
 	}
-	
+
 	@RequestMapping(value = "/getshoplist", method = RequestMethod.GET)
 	@ResponseBody
 	private Map<String, Object> getShopList(HttpServletRequest request) {
@@ -74,15 +75,15 @@ public class ShopManagementController {
 		user.setName("test");
 		request.getSession().setAttribute("user", user);
 		user = (PersonInfo) request.getSession().getAttribute("user");
-//		long employeeId = user.getUserId();
-//		if (hasAccountBind(request, employeeId)) {
-//			modelMap.put("hasAccountBind", true);
-//		} else {
-//			modelMap.put("hasAccountBind", false);
-//		}
+		// long employeeId = user.getUserId();
+		// if (hasAccountBind(request, employeeId)) {
+		// modelMap.put("hasAccountBind", true);
+		// } else {
+		// modelMap.put("hasAccountBind", false);
+		// }
 		List<Shop> list = new ArrayList<Shop>();
 		try {
-			Shop shopCondition  = new Shop();
+			Shop shopCondition = new Shop();
 			shopCondition.setOwner(user);
 			ShopExecution shopExecution = shopService.getShopList(shopCondition, 0, 100);
 			list = shopExecution.getShopList();
@@ -90,7 +91,7 @@ public class ShopManagementController {
 			modelMap.put("user", user);
 			modelMap.put("success", true);
 			// 列出店铺成功之后，将店铺放入session中作为权限验证依据，即该帐号只能操作它自己的店铺
-//			request.getSession().setAttribute("shopList", list);
+			// request.getSession().setAttribute("shopList", list);
 		} catch (Exception e) {
 			modelMap.put("success", false);
 			modelMap.put("errMsg", e.toString());
@@ -182,7 +183,8 @@ public class ShopManagementController {
 				shop.setOwner(owner);
 				ShopExecution se;
 				try {
-					se = shopService.addShop(shop, shopImg.getInputStream(), shopImg.getOriginalFilename());
+					ImageHolder imageHolder = new ImageHolder(shopImg.getOriginalFilename(), shopImg.getInputStream());
+					se = shopService.addShop(shop, imageHolder);
 					if (se.getState() == ShopStateEnum.CHECK.getState()) {
 						modelMap.put("success", true);
 						// 若shop创建成功，则加入session中，作为权限使用
@@ -249,9 +251,11 @@ public class ShopManagementController {
 				ShopExecution se;
 				try {
 					if (shopImg == null) {
-						se = shopService.modifyShop(shop, null, null);
+						se = shopService.modifyShop(shop, null);
 					} else {
-						se = shopService.modifyShop(shop, shopImg.getInputStream(), shopImg.getOriginalFilename());
+						ImageHolder imageHolder = new ImageHolder(shopImg.getOriginalFilename(),
+								shopImg.getInputStream());
+						se = shopService.modifyShop(shop, imageHolder);
 					}
 					if (se.getState() == ShopStateEnum.SUCCESS.getState()) {
 						modelMap.put("success", true);
