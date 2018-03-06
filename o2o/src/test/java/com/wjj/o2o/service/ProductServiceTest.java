@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -20,12 +21,14 @@ import com.wjj.o2o.entity.Product;
 import com.wjj.o2o.entity.ProductCategory;
 import com.wjj.o2o.entity.Shop;
 import com.wjj.o2o.enums.ProductStateEnum;
+import com.wjj.o2o.exceptions.ShopOperationException;
 
 public class ProductServiceTest extends BaseTest {
 	@Autowired
 	private ProductService productService;
 	
 	@Test
+	@Ignore
 	public void testAddProduct() throws FileNotFoundException{
 		Product product = new Product();
 		Shop shop = new Shop();
@@ -54,5 +57,34 @@ public class ProductServiceTest extends BaseTest {
 		
 		ProductExecution pe = productService.addProduct(product, thumbnail, list);
 		assertEquals(ProductStateEnum.SUCCESS.getState(),pe.getState());
+	}
+	@Test
+	public void testModifyProduct() throws ShopOperationException,FileNotFoundException{
+		Product product  = new Product();
+		Shop shop = new Shop();
+		shop.setShopId(4L);
+		ProductCategory pc = new ProductCategory();
+		pc.setProductCategoryId(6L);
+		product.setProductId(9L);
+		product.setShop(shop);
+		product.setProductCategory(pc);
+		product.setProductName("正式的商品");
+		product.setProductDesc("正式的商品");
+		
+		File file = new File("E:/c.jpg");
+		InputStream is = new FileInputStream(file);
+		ImageHolder thumbnail  = new ImageHolder(file.getName(), is);
+		
+		File f1 = new File("E:/d.jpg");
+		File f2 = new File("E:/e.jpg");
+		InputStream is1 = new FileInputStream(f1);
+		InputStream is2 = new FileInputStream(f2);
+		
+		List<ImageHolder> list = new ArrayList<ImageHolder>();
+		list.add(new ImageHolder(f1.getName(), is1));
+		list.add(new ImageHolder(f2.getName(), is2));
+		
+		ProductExecution pe = productService.modifyProduct(product, thumbnail, list);
+		assertEquals(ProductStateEnum.SUCCESS.getState(), pe.getState());
 	}
 }

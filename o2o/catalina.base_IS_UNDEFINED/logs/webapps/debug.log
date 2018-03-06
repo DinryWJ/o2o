@@ -1,27 +1,27 @@
-2018-02-23 16:25:08.369 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018022316250810392.jpg
-2018-02-23 16:25:08.376 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018022316250810392.jpg
-2018-02-23 16:25:08.376 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
-2018-02-23 16:25:09.483 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018022316250978710.jpg
-2018-02-23 16:25:09.483 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018022316250978710.jpg
-2018-02-23 16:25:09.488 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
-2018-02-23 16:25:09.696 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018022316250956161.jpg
-2018-02-23 16:25:09.696 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018022316250956161.jpg
-2018-02-23 16:25:09.696 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
-2018-02-23 16:41:50.313 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018022316415069901.jpg
-2018-02-23 16:41:50.316 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018022316415069901.jpg
-2018-02-23 16:41:50.316 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
-2018-02-23 16:44:36.530 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018022316443630293.jpg
-2018-02-23 16:44:36.533 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018022316443630293.jpg
-2018-02-23 16:44:36.533 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
-2018-02-23 16:46:15.942 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018022316461528128.jpg
-2018-02-23 16:46:15.944 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018022316461528128.jpg
-2018-02-23 16:46:15.945 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
-2018-02-23 16:47:12.306 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018022316471273167.jpg
-2018-02-23 16:47:12.307 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018022316471273167.jpg
-2018-02-23 16:47:12.307 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
-2018-02-23 16:47:36.235 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018022316473689086.jpg
-2018-02-23 16:47:36.236 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018022316473689086.jpg
-2018-02-23 16:47:36.237 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
-2018-02-23 16:48:09.236 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018022316480998321.jpg
-2018-02-23 16:48:09.238 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018022316480998321.jpg
-2018-02-23 16:48:09.238 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
+2018-03-06 19:09:45.023 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018030619094591003.jpg
+2018-03-06 19:09:45.045 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018030619094591003.jpg
+2018-03-06 19:09:45.045 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
+2018-03-06 19:09:45.859 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018030619094558567.jpg
+2018-03-06 19:09:45.859 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018030619094558567.jpg
+2018-03-06 19:09:45.860 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
+2018-03-06 19:09:46.024 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018030619094653255.jpg
+2018-03-06 19:09:46.024 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018030619094653255.jpg
+2018-03-06 19:09:46.024 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
+2018-03-06 19:10:51.152 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018030619105159727.jpg
+2018-03-06 19:10:51.154 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018030619105159727.jpg
+2018-03-06 19:10:51.154 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
+2018-03-06 19:10:51.916 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018030619105147761.jpg
+2018-03-06 19:10:51.917 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018030619105147761.jpg
+2018-03-06 19:10:51.917 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
+2018-03-06 19:10:52.514 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018030619105283987.jpg
+2018-03-06 19:10:52.514 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018030619105283987.jpg
+2018-03-06 19:10:52.514 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
+2018-03-06 19:11:13.305 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018030619111363169.jpg
+2018-03-06 19:11:13.309 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018030619111363169.jpg
+2018-03-06 19:11:13.309 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
+2018-03-06 19:11:14.042 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018030619111460701.jpg
+2018-03-06 19:11:14.042 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018030619111460701.jpg
+2018-03-06 19:11:14.042 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
+2018-03-06 19:11:14.210 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018030619111417030.jpg
+2018-03-06 19:11:14.210 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018030619111417030.jpg
+2018-03-06 19:11:14.210 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
