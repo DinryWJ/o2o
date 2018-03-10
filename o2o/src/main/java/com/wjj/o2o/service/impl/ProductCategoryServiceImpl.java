@@ -12,7 +12,6 @@ import com.wjj.o2o.dto.ProductCategoryExecution;
 import com.wjj.o2o.entity.ProductCategory;
 import com.wjj.o2o.enums.ProductCategoryStateEnum;
 import com.wjj.o2o.exceptions.ProductCategoryOperationException;
-import com.wjj.o2o.exceptions.ProductOperationException;
 import com.wjj.o2o.service.ProductCategoryService;
 @Service
 public class ProductCategoryServiceImpl implements ProductCategoryService{
