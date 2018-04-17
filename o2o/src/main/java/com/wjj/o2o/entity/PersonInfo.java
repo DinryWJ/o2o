@@ -14,7 +14,7 @@ public class PersonInfo {
 	//private Integer customerFlag;
 	//private Integer shopOwnerFlag;
 	//private Integer adminFlag;
-	private String userType;
+	private Integer userType;
 	private Date createTime;
 	private Date lastEditTime;
 	private Integer enableStatus;
@@ -59,11 +59,12 @@ public class PersonInfo {
 		this.profileImg = profileImg;
 	}
 
-	public String getUserType() {
+	
+	public Integer getUserType() {
 		return userType;
 	}
 
-	public void setUserType(String userType) {
+	public void setUserType(Integer userType) {
 		this.userType = userType;
 	}
 

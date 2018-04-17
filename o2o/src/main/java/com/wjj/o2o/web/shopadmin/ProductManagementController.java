@@ -42,6 +42,52 @@ public class ProductManagementController {
 
 	private static final int IMAGEMAXCOUNT = 6;
 
+	@RequestMapping(value = "/listproductsbyshop", method = RequestMethod.GET)
+	@ResponseBody
+	private Map<String, Object> listProductsByShop(HttpServletRequest request) {
+		Map<String, Object> modelMap = new HashMap<String, Object>();
+		int pageIndex = HttpServletRequestUtil.getInt(request, "pageIndex");
+		int pageSize = HttpServletRequestUtil.getInt(request, "pageSize");
+		Shop currentShop = (Shop) request.getSession().getAttribute(
+				"currentShop");
+		if ((pageIndex > -1) && (pageSize > -1) && (currentShop != null)
+				&& (currentShop.getShopId() != null)) {
+			long productCategoryId = HttpServletRequestUtil.getLong(request,
+					"productCategoryId");
+			String productName = HttpServletRequestUtil.getString(request,
+					"productName");
+			Product productCondition = compactProductCondition4Search(
+					currentShop.getShopId(), productCategoryId, productName);
+			ProductExecution pe = productService.getProductList(
+					productCondition, pageIndex, pageSize);
+			modelMap.put("productList", pe.getProductList());
+			modelMap.put("count", pe.getCount());
+			modelMap.put("success", true);
+		} else {
+			modelMap.put("success", false);
+			modelMap.put("errMsg", "empty pageSize or pageIndex or shopId");
+		}
+		return modelMap;
+	}
+	@RequestMapping(value = "/getproductcategorylistbyshopId", method = RequestMethod.GET)
+	@ResponseBody
+	private Map<String, Object> getProductCategoryListByShopId(
+			HttpServletRequest request) {
+		Map<String, Object> modelMap = new HashMap<String, Object>();
+		Shop currentShop = (Shop) request.getSession().getAttribute(
+				"currentShop");
+		if ((currentShop != null) && (currentShop.getShopId() != null)) {
+			List<ProductCategory> productCategoryList = productCategoryService
+					.getByShopId(currentShop.getShopId());
+			modelMap.put("productCategoryList", productCategoryList);
+			modelMap.put("success", true);
+		} else {
+			modelMap.put("success", false);
+			modelMap.put("errMsg", "empty pageSize or pageIndex or shopId");
+		}
+		return modelMap;
+	}
+	
 	@RequestMapping(value = "/addproduct", method = RequestMethod.POST)
 	@ResponseBody
 	public Map<String, Object> addProduct(HttpServletRequest request) {
@@ -106,27 +152,7 @@ public class ProductManagementController {
 
 	}
 
-	private ImageHolder handleImage(HttpServletRequest request, ImageHolder thumbnail, List<ImageHolder> productImgList)
-			throws IOException {
-		MultipartHttpServletRequest multipartRequest = (MultipartHttpServletRequest) request;
-		CommonsMultipartFile thumbnailFile = (CommonsMultipartFile) multipartRequest.getFile("thumbnail");
-		if(thumbnailFile!=null){	
-			thumbnail = new ImageHolder(thumbnailFile.getOriginalFilename(), thumbnailFile.getInputStream());
-		}
-		// 取出详情图列表并构建list<imageholder>列表对象，最多支持6张图片上传
-		for (int i = 0; i < IMAGEMAXCOUNT; i++) {
-			CommonsMultipartFile productImgFile = (CommonsMultipartFile) multipartRequest
-					.getFile("productImg" + i);
-			if (productImgFile != null) {
-				ImageHolder productImg = new ImageHolder(productImgFile.getOriginalFilename(),
-						productImgFile.getInputStream());
-				productImgList.add(productImg);
-			} else {
-				break;
-			}
-		}
-		return thumbnail;
-	}
+	
 
 	@RequestMapping(value = "/modifyproduct", method = RequestMethod.POST)
 	@ResponseBody
@@ -206,5 +232,44 @@ public class ProductManagementController {
 			modelMap.put("errMsg", "empty productId");
 		}
 		return modelMap;
+	}
+	
+	private ImageHolder handleImage(HttpServletRequest request, ImageHolder thumbnail, List<ImageHolder> productImgList)
+			throws IOException {
+		MultipartHttpServletRequest multipartRequest = (MultipartHttpServletRequest) request;
+		CommonsMultipartFile thumbnailFile = (CommonsMultipartFile) multipartRequest.getFile("thumbnail");
+		if(thumbnailFile!=null){	
+			thumbnail = new ImageHolder(thumbnailFile.getOriginalFilename(), thumbnailFile.getInputStream());
+		}
+		// 取出详情图列表并构建list<imageholder>列表对象，最多支持6张图片上传
+		for (int i = 0; i < IMAGEMAXCOUNT; i++) {
+			CommonsMultipartFile productImgFile = (CommonsMultipartFile) multipartRequest
+					.getFile("productImg" + i);
+			if (productImgFile != null) {
+				ImageHolder productImg = new ImageHolder(productImgFile.getOriginalFilename(),
+						productImgFile.getInputStream());
+				productImgList.add(productImg);
+			} else {
+				break;
+			}
+		}
+		return thumbnail;
+	}
+	
+	private Product compactProductCondition4Search(long shopId,
+			long productCategoryId, String productName) {
+		Product productCondition = new Product();
+		Shop shop = new Shop();
+		shop.setShopId(shopId);
+		productCondition.setShop(shop);
+		if (productCategoryId != -1L) {
+			ProductCategory productCategory = new ProductCategory();
+			productCategory.setProductCategoryId(productCategoryId);
+			productCondition.setProductCategory(productCategory);
+		}
+		if (productName != null) {
+			productCondition.setProductName(productName);
+		}
+		return productCondition;
 	}
 }

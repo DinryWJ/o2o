@@ -70,11 +70,7 @@ public class ShopManagementController {
 	@ResponseBody
 	private Map<String, Object> getShopList(HttpServletRequest request) {
 		Map<String, Object> modelMap = new HashMap<String, Object>();
-		PersonInfo user = new PersonInfo();
-		user.setUserId(9L);
-		user.setName("test");
-		request.getSession().setAttribute("user", user);
-		user = (PersonInfo) request.getSession().getAttribute("user");
+		PersonInfo user = (PersonInfo) request.getSession().getAttribute("user");
 		// long employeeId = user.getUserId();
 		// if (hasAccountBind(request, employeeId)) {
 		// modelMap.put("hasAccountBind", true);
@@ -90,8 +86,9 @@ public class ShopManagementController {
 			modelMap.put("shopList", list);
 			modelMap.put("user", user);
 			modelMap.put("success", true);
+			//Spring 权限拦截
 			// 列出店铺成功之后，将店铺放入session中作为权限验证依据，即该帐号只能操作它自己的店铺
-			// request.getSession().setAttribute("shopList", list);
+			request.getSession().setAttribute("shopList", list);
 		} catch (Exception e) {
 			modelMap.put("success", false);
 			modelMap.put("errMsg", e.toString());
@@ -188,7 +185,6 @@ public class ShopManagementController {
 					if (se.getState() == ShopStateEnum.CHECK.getState()) {
 						modelMap.put("success", true);
 						// 若shop创建成功，则加入session中，作为权限使用
-
 						@SuppressWarnings("unchecked")
 						List<Shop> shopList = (List<Shop>) request.getSession().getAttribute("shopList");
 						if (shopList == null || shopList.size() == 0) {

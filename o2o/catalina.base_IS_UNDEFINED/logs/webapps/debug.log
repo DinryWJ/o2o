@@ -1,27 +1,45 @@
-2018-03-06 19:09:45.023 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018030619094591003.jpg
-2018-03-06 19:09:45.045 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018030619094591003.jpg
-2018-03-06 19:09:45.045 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
-2018-03-06 19:09:45.859 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018030619094558567.jpg
-2018-03-06 19:09:45.859 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018030619094558567.jpg
-2018-03-06 19:09:45.860 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
-2018-03-06 19:09:46.024 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018030619094653255.jpg
-2018-03-06 19:09:46.024 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018030619094653255.jpg
-2018-03-06 19:09:46.024 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
-2018-03-06 19:10:51.152 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018030619105159727.jpg
-2018-03-06 19:10:51.154 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018030619105159727.jpg
-2018-03-06 19:10:51.154 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
-2018-03-06 19:10:51.916 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018030619105147761.jpg
-2018-03-06 19:10:51.917 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018030619105147761.jpg
-2018-03-06 19:10:51.917 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
-2018-03-06 19:10:52.514 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018030619105283987.jpg
-2018-03-06 19:10:52.514 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018030619105283987.jpg
-2018-03-06 19:10:52.514 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
-2018-03-06 19:11:13.305 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018030619111363169.jpg
-2018-03-06 19:11:13.309 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018030619111363169.jpg
-2018-03-06 19:11:13.309 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
-2018-03-06 19:11:14.042 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018030619111460701.jpg
-2018-03-06 19:11:14.042 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018030619111460701.jpg
-2018-03-06 19:11:14.042 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
-2018-03-06 19:11:14.210 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:upload\images\item\shop\4\2018030619111417030.jpg
-2018-03-06 19:11:14.210 [main] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018030619111417030.jpg
-2018-03-06 19:11:14.210 [main] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/workspace/o2o/target/test-classes/
+2018-04-16 16:32:42.065 [main] DEBUG com.wjj.o2o.dao.AreaDaoTest - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 16:35:48.446 [main] DEBUG com.wjj.o2o.dao.AreaDaoTest - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 16:37:11.253 [main] DEBUG com.wjj.o2o.dao.AreaDaoTest - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 16:40:42.749 [main] DEBUG com.wjj.o2o.dao.AreaDaoTest - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 16:42:27.557 [main] DEBUG com.wjj.o2o.dao.AreaDaoTest - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 16:52:24.738 [main] DEBUG com.wjj.o2o.dao.AreaDaoTest - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 16:53:55.099 [main] DEBUG com.wjj.o2o.dao.HeadLineDaoTest - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 17:01:55.360 [main] DEBUG com.wjj.o2o.dao.HeadLineDaoTest - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 17:13:02.863 [main] DEBUG com.wjj.o2o.dao.HeadLineDaoTest - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 17:15:31.438 [main] DEBUG com.wjj.o2o.dao.HeadLineDaoTest - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 17:15:49.744 [main] DEBUG com.wjj.o2o.dao.AreaDaoTest - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 17:46:01.030 [main] DEBUG com.wjj.o2o.service.WechatAuthServiceTest - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 17:47:20.531 [main] DEBUG com.wjj.o2o.service.AreaServiceTest - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 18:04:23.318 [main] DEBUG com.wjj.o2o.O2oApplication - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 18:07:34.645 [main] DEBUG com.wjj.o2o.O2oApplication - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 18:09:19.621 [main] DEBUG com.wjj.o2o.O2oApplication - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 18:11:23.642 [main] DEBUG com.wjj.o2o.O2oApplication - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 18:12:53.617 [main] DEBUG com.wjj.o2o.O2oApplication - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 18:13:50.904 [main] DEBUG com.wjj.o2o.O2oApplication - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 18:30:38.734 [main] DEBUG com.wjj.o2o.O2oApplication - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 18:32:31.185 [main] DEBUG com.wjj.o2o.dao.AreaDaoTest - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 18:35:18.075 [main] DEBUG com.wjj.o2o.dao.AreaDaoTest - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 18:35:29.428 [main] DEBUG com.wjj.o2o.O2oApplication - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 18:41:07.112 [main] DEBUG com.wjj.o2o.O2oApplication - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 18:48:05.125 [main] DEBUG com.wjj.o2o.O2oApplication - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 18:52:45.073 [main] DEBUG com.wjj.o2o.O2oApplication - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 18:58:26.552 [main] DEBUG com.wjj.o2o.O2oApplication - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 19:09:23.322 [main] DEBUG com.wjj.o2o.O2oApplication - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 19:17:58.918 [main] DEBUG com.wjj.o2o.O2oApplication - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 19:19:24.426 [main] DEBUG com.wjj.o2o.O2oApplication - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 19:35:13.585 [main] DEBUG com.wjj.o2o.O2oApplication - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 19:44:43.699 [main] DEBUG com.wjj.o2o.O2oApplication - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 19:59:13.839 [main] DEBUG com.wjj.o2o.O2oApplication - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 20:08:58.412 [main] DEBUG com.wjj.o2o.O2oApplication - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 20:13:19.671 [main] DEBUG com.wjj.o2o.O2oApplication - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 20:14:51.597 [main] DEBUG com.wjj.o2o.O2oApplication - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-16 20:15:37.706 [http-nio-8080-exec-2] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:\upload\images\item\shop\4\2018041620153740104.jpg
+2018-04-16 20:15:37.706 [http-nio-8080-exec-2] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018041620153740104.jpg
+2018-04-16 20:15:37.706 [http-nio-8080-exec-2] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/sts-workspace/o2o/target/classes/
+2018-04-16 20:15:38.295 [http-nio-8080-exec-2] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:\upload\images\item\shop\4\2018041620153868517.jpg
+2018-04-16 20:15:38.295 [http-nio-8080-exec-2] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018041620153868517.jpg
+2018-04-16 20:15:38.296 [http-nio-8080-exec-2] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/sts-workspace/o2o/target/classes/
+2018-04-16 20:15:38.349 [http-nio-8080-exec-2] DEBUG com.wjj.o2o.utils.ImageUtil - current relativeAddr is:\upload\images\item\shop\4\2018041620153836375.jpg
+2018-04-16 20:15:38.349 [http-nio-8080-exec-2] DEBUG com.wjj.o2o.utils.ImageUtil - current complete addr is:D:\projectdev\image\upload\images\item\shop\4\2018041620153836375.jpg
+2018-04-16 20:15:38.349 [http-nio-8080-exec-2] DEBUG com.wjj.o2o.utils.ImageUtil - basePath is:/D:/sts-workspace/o2o/target/classes/

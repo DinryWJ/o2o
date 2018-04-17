@@ -27,8 +27,8 @@
 			<nav class="bar bar-tab">
 				<a class="tab-item active" href="#"> <span
 					class="icon icon-home"></span> <span class="tab-label">首页</span>
-				</a> <a class="tab-item" href="#" id='me'> <span class="icon icon-me"></span>
-					<span class="tab-label">我</span>
+				</a> <a class="tab-item" href="#" id='me'> <span
+					class="icon icon-me"></span> <span class="tab-label">我</span>
 				</a>
 			</nav>
 			<div class="content">
@@ -48,7 +48,7 @@
 					<div class="swiper-pagination"></div>
 				</div>
 				<div class='total-shop-button'>
-					<a href="/o2o/frontend/shoplist" external >全部商店</a>
+					<a href="/o2o/frontend/shoplist" external>全部商店</a>
 				</div>
 				<div class="row">
 					<!-- <div class="col-50 shop-classify">
@@ -68,6 +68,15 @@
 		<div class="panel panel-right panel-reveal" id="panel-left-demo">
 			<div class="content-block">
 				<p>
+					<a href="/o2o/local/accountbind?usertype=1" class="close-panel">绑定账号</a>
+				</p>
+				<p>
+					<a href="/o2o/local/changepsw?usertype=1" class="close-panel">修改密码</a>
+				</p>
+				<p>
+					<a href="/o2o/frontend/myrecord" class="close-panel">消费记录</a>
+				</p>
+				<p>
 					<a href="/o2o/frontend/myrecord" class="close-panel">消费记录</a>
 				</p>
 				<p>
@@ -75,6 +84,9 @@
 				</p>
 				<p>
 					<a href="/o2o/frontend/pointrecord" class="close-panel">积分兑换记录</a>
+				</p>
+				<p>
+					<a href="#" class="close-panel" usertype="1" id="log-out">退出账号</a>
 				</p>
 				<!-- Click on link with "close-panel" class will close panel -->
 			</div>
@@ -89,7 +101,11 @@
 		src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
 	<script type='text/javascript'
 		src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
+	<script type='text/javascript' src='../resources/js/common/common.js'
+		charset='utf-8'></script>
 	<script type='text/javascript' src='../resources/js/frontend/index.js'
+		charset='utf-8'></script>
+	<script type="text/javascript" src='../resources/js/local/logout.js'
 		charset='utf-8'></script>
 </body>
 </html>

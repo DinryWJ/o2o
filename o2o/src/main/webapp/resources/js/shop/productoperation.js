@@ -1,6 +1,6 @@
 $(function() {
 	var productId = getQueryString('productId');
-	var shopId = 1;
+	var shopId = getQueryString('shopId');
 	var infoUrl = '/o2o/shopadmin/getproductbyid?productId=' + productId;
 	var categoryUrl = '/o2o/shopadmin/getproductcategorylist';
 	var productPostUrl = '/o2o/shopadmin/modifyproduct';
@@ -74,6 +74,7 @@ $(function() {
 				product.productName = $('#product-name').val();
 				product.productDesc = $('#product-desc').val();
 				product.priority = $('#priority').val();
+				product.point = $('#point').val();
 				product.normalPrice = $('#normal-price').val();
 				product.promotionPrice = $('#promotion-price').val();
 				product.productCategory = {

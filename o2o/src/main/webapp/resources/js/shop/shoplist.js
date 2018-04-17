@@ -49,23 +49,7 @@ $(function() {
 		}
 	}
 
-	$('#log-out').click(function() {
-		$.ajax({
-			url : "/myo2o/shop/logout",
-			type : "post",
-			contentType : false,
-			processData : false,
-			cache : false,
-			success : function(data) {
-				if (data.success) {
-					window.location.href = '/myo2o/shop/ownerlogin';
-				}
-			},
-			error : function(data, error) {
-				alert(error);
-			}
-		});
-	});
+
 
 	getlist();
 });

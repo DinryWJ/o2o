@@ -7,6 +7,8 @@ import org.apache.ibatis.annotations.Param;
 import com.wjj.o2o.entity.ProductCategory;
 
 public interface ProductCategoryDao {
+	List<ProductCategory> queryByShopId(long shopId);
+	
 	List<ProductCategory> queryProductCategoryList(long shopId);
 	
 	int batchInsertProductCategory(List<ProductCategory> productCategorylist);

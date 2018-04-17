@@ -68,4 +68,9 @@ public class ProductCategoryServiceImpl implements ProductCategoryService{
 		}
 	}
 
+	@Override
+	public List<ProductCategory> getByShopId(long shopId) {
+		return productCategoryDao.queryByShopId(shopId);
+	}
+
 }

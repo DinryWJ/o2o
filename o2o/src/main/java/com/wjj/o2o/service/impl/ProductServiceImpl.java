@@ -18,6 +18,7 @@ import com.wjj.o2o.enums.ProductStateEnum;
 import com.wjj.o2o.exceptions.ProductOperationException;
 import com.wjj.o2o.service.ProductService;
 import com.wjj.o2o.utils.ImageUtil;
+import com.wjj.o2o.utils.PageCalculator;
 import com.wjj.o2o.utils.PathUtil;
 
 @Service
@@ -132,5 +133,16 @@ public class ProductServiceImpl implements ProductService {
 			ImageUtil.deleteFileOrPath(productImg.getImgAddr());
 		}
 		productImgDao.deleteProductImgByProductId(productId);
+	}
+
+	@Override
+	public ProductExecution getProductList(Product productCondition, int pageIndex, int pageSize) {
+		int rowIndex = PageCalculator.calculateRowIndex(pageIndex, pageSize);
+		List<Product> productList = productDao.queryProductList(productCondition, rowIndex, pageSize);
+		int count = productDao.queryProductCount(productCondition);
+		ProductExecution pe = new ProductExecution();
+		pe.setProductList(productList);
+		pe.setCount(count);
+		return pe;
 	}
 }

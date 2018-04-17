@@ -18,7 +18,7 @@ import net.coobird.thumbnailator.geometry.Positions;
 
 public class ImageUtil {
 	private static Logger logger = LoggerFactory.getLogger(ImageUtil.class);
-	private static String basePath = Thread.currentThread().getContextClassLoader().getResource("").getPath();
+	private static String basePath = PathUtil.getImgBasePath();
 	private static final SimpleDateFormat sDateFormat = new SimpleDateFormat("yyyyMMddHHmmss"); // 时间格式化的格式
 	private static final Random r = new Random();
 	public static String generateThumbnail(ImageHolder thumbnail, String targetAddr) {
