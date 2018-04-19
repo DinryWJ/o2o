@@ -1,109 +1,18 @@
-2018-04-16 16:32:42.064 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - Starting AreaDaoTest on DESKTOP-IPQA30K with PID 5472 (started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 16:32:42.068 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - No active profile set, falling back to default profiles: default
-2018-04-16 16:35:48.443 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - Starting AreaDaoTest on DESKTOP-IPQA30K with PID 12524 (started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 16:35:48.449 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - No active profile set, falling back to default profiles: default
-2018-04-16 16:35:52.130 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - Started AreaDaoTest in 3.994 seconds (JVM running for 5.101)
-2018-04-16 16:37:11.248 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - Starting AreaDaoTest on DESKTOP-IPQA30K with PID 12208 (started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 16:37:11.255 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - No active profile set, falling back to default profiles: default
-2018-04-16 16:37:14.873 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - Started AreaDaoTest in 3.916 seconds (JVM running for 5.008)
-2018-04-16 16:40:42.748 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - Starting AreaDaoTest on DESKTOP-IPQA30K with PID 3392 (started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 16:40:42.751 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - No active profile set, falling back to default profiles: default
-2018-04-16 16:40:46.661 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - Started AreaDaoTest in 4.184 seconds (JVM running for 5.303)
-2018-04-16 16:42:27.556 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - Starting AreaDaoTest on DESKTOP-IPQA30K with PID 9184 (started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 16:42:27.571 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - No active profile set, falling back to default profiles: default
-2018-04-16 16:42:31.203 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - Started AreaDaoTest in 3.931 seconds (JVM running for 4.982)
-2018-04-16 16:52:24.737 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - Starting AreaDaoTest on DESKTOP-IPQA30K with PID 13104 (started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 16:52:24.744 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - No active profile set, falling back to default profiles: default
-2018-04-16 16:52:28.389 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - Started AreaDaoTest in 3.95 seconds (JVM running for 5.052)
-2018-04-16 16:53:55.097 [main] INFO  com.wjj.o2o.dao.HeadLineDaoTest - Starting HeadLineDaoTest on DESKTOP-IPQA30K with PID 3100 (started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 16:53:55.101 [main] INFO  com.wjj.o2o.dao.HeadLineDaoTest - No active profile set, falling back to default profiles: default
-2018-04-16 16:53:58.760 [main] INFO  com.wjj.o2o.dao.HeadLineDaoTest - Started HeadLineDaoTest in 3.947 seconds (JVM running for 5.027)
-2018-04-16 17:01:55.359 [main] INFO  com.wjj.o2o.dao.HeadLineDaoTest - Starting HeadLineDaoTest on DESKTOP-IPQA30K with PID 8696 (started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 17:01:55.364 [main] INFO  com.wjj.o2o.dao.HeadLineDaoTest - No active profile set, falling back to default profiles: default
-2018-04-16 17:01:58.963 [main] INFO  com.wjj.o2o.dao.HeadLineDaoTest - Started HeadLineDaoTest in 3.894 seconds (JVM running for 4.984)
-2018-04-16 17:13:02.862 [main] INFO  com.wjj.o2o.dao.HeadLineDaoTest - Starting HeadLineDaoTest on DESKTOP-IPQA30K with PID 11708 (started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 17:13:02.865 [main] INFO  com.wjj.o2o.dao.HeadLineDaoTest - No active profile set, falling back to default profiles: default
-2018-04-16 17:15:31.437 [main] INFO  com.wjj.o2o.dao.HeadLineDaoTest - Starting HeadLineDaoTest on DESKTOP-IPQA30K with PID 9900 (started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 17:15:31.441 [main] INFO  com.wjj.o2o.dao.HeadLineDaoTest - No active profile set, falling back to default profiles: default
-2018-04-16 17:15:35.743 [main] INFO  com.wjj.o2o.dao.HeadLineDaoTest - Started HeadLineDaoTest in 4.614 seconds (JVM running for 5.865)
-2018-04-16 17:15:49.743 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - Starting AreaDaoTest on DESKTOP-IPQA30K with PID 11080 (started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 17:15:49.747 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - No active profile set, falling back to default profiles: default
-2018-04-16 17:15:54.167 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - Started AreaDaoTest in 4.721 seconds (JVM running for 5.982)
-2018-04-16 17:46:01.029 [main] INFO  com.wjj.o2o.service.WechatAuthServiceTest - Starting WechatAuthServiceTest on DESKTOP-IPQA30K with PID 9192 (started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 17:46:01.033 [main] INFO  com.wjj.o2o.service.WechatAuthServiceTest - No active profile set, falling back to default profiles: default
-2018-04-16 17:46:05.244 [main] INFO  com.wjj.o2o.service.WechatAuthServiceTest - Started WechatAuthServiceTest in 4.504 seconds (JVM running for 5.658)
-2018-04-16 17:47:20.530 [main] INFO  com.wjj.o2o.service.AreaServiceTest - Starting AreaServiceTest on DESKTOP-IPQA30K with PID 4436 (started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 17:47:20.534 [main] INFO  com.wjj.o2o.service.AreaServiceTest - No active profile set, falling back to default profiles: default
-2018-04-16 17:47:24.472 [main] INFO  com.wjj.o2o.service.AreaServiceTest - Started AreaServiceTest in 4.232 seconds (JVM running for 5.34)
-2018-04-16 18:04:23.313 [main] INFO  com.wjj.o2o.O2oApplication - Starting O2oApplication on DESKTOP-IPQA30K with PID 13144 (D:\sts-workspace\o2o\target\classes started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 18:04:23.319 [main] INFO  com.wjj.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2018-04-16 18:04:26.301 [main] INFO  com.wjj.o2o.O2oApplication - Started O2oApplication in 3.343 seconds (JVM running for 4.428)
-2018-04-16 18:07:34.643 [main] INFO  com.wjj.o2o.O2oApplication - Starting O2oApplication on DESKTOP-IPQA30K with PID 6572 (D:\sts-workspace\o2o\target\classes started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 18:07:34.647 [main] INFO  com.wjj.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2018-04-16 18:07:36.967 [main] INFO  com.wjj.o2o.O2oApplication - Started O2oApplication in 2.551 seconds (JVM running for 3.194)
-2018-04-16 18:09:19.619 [main] INFO  com.wjj.o2o.O2oApplication - Starting O2oApplication on DESKTOP-IPQA30K with PID 12912 (D:\sts-workspace\o2o\target\classes started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 18:09:19.622 [main] INFO  com.wjj.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2018-04-16 18:09:21.919 [main] INFO  com.wjj.o2o.O2oApplication - Started O2oApplication in 2.532 seconds (JVM running for 3.193)
-2018-04-16 18:11:23.640 [main] INFO  com.wjj.o2o.O2oApplication - Starting O2oApplication on DESKTOP-IPQA30K with PID 9984 (D:\sts-workspace\o2o\target\classes started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 18:11:23.643 [main] INFO  com.wjj.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2018-04-16 18:11:25.986 [main] INFO  com.wjj.o2o.O2oApplication - Started O2oApplication in 2.572 seconds (JVM running for 3.217)
-2018-04-16 18:12:53.613 [main] INFO  com.wjj.o2o.O2oApplication - Starting O2oApplication on DESKTOP-IPQA30K with PID 6984 (D:\sts-workspace\o2o\target\classes started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 18:12:53.618 [main] INFO  com.wjj.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2018-04-16 18:12:56.054 [main] INFO  com.wjj.o2o.O2oApplication - Started O2oApplication in 2.682 seconds (JVM running for 3.447)
-2018-04-16 18:13:50.902 [main] INFO  com.wjj.o2o.O2oApplication - Starting O2oApplication on DESKTOP-IPQA30K with PID 5268 (D:\sts-workspace\o2o\target\classes started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 18:13:50.906 [main] INFO  com.wjj.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2018-04-16 18:13:53.393 [main] INFO  com.wjj.o2o.O2oApplication - Started O2oApplication in 2.727 seconds (JVM running for 3.369)
-2018-04-16 18:30:38.731 [main] INFO  com.wjj.o2o.O2oApplication - Starting O2oApplication on DESKTOP-IPQA30K with PID 5792 (D:\sts-workspace\o2o\target\classes started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 18:30:38.736 [main] INFO  com.wjj.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2018-04-16 18:30:41.469 [main] INFO  com.wjj.o2o.O2oApplication - Started O2oApplication in 2.975 seconds (JVM running for 3.772)
-2018-04-16 18:32:31.183 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - Starting AreaDaoTest on DESKTOP-IPQA30K with PID 3960 (started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 18:32:31.187 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - No active profile set, falling back to default profiles: default
-2018-04-16 18:32:35.000 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - Started AreaDaoTest in 4.112 seconds (JVM running for 5.188)
-2018-04-16 18:35:18.074 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - Starting AreaDaoTest on DESKTOP-IPQA30K with PID 8872 (started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 18:35:18.077 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - No active profile set, falling back to default profiles: default
-2018-04-16 18:35:22.123 [main] INFO  com.wjj.o2o.dao.AreaDaoTest - Started AreaDaoTest in 4.323 seconds (JVM running for 5.466)
-2018-04-16 18:35:29.426 [main] INFO  com.wjj.o2o.O2oApplication - Starting O2oApplication on DESKTOP-IPQA30K with PID 4532 (D:\sts-workspace\o2o\target\classes started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 18:35:29.429 [main] INFO  com.wjj.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2018-04-16 18:35:31.771 [main] INFO  com.wjj.o2o.O2oApplication - Started O2oApplication in 2.589 seconds (JVM running for 3.219)
-2018-04-16 18:41:07.109 [main] INFO  com.wjj.o2o.O2oApplication - Starting O2oApplication on DESKTOP-IPQA30K with PID 12436 (D:\sts-workspace\o2o\target\classes started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 18:41:07.113 [main] INFO  com.wjj.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2018-04-16 18:41:09.689 [main] INFO  com.wjj.o2o.O2oApplication - Started O2oApplication in 2.824 seconds (JVM running for 3.476)
-2018-04-16 18:48:05.123 [main] INFO  com.wjj.o2o.O2oApplication - Starting O2oApplication on DESKTOP-IPQA30K with PID 12740 (D:\sts-workspace\o2o\target\classes started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 18:48:05.127 [main] INFO  com.wjj.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2018-04-16 18:48:07.550 [main] INFO  com.wjj.o2o.O2oApplication - Started O2oApplication in 2.678 seconds (JVM running for 3.347)
-2018-04-16 18:52:45.070 [main] INFO  com.wjj.o2o.O2oApplication - Starting O2oApplication on DESKTOP-IPQA30K with PID 11796 (D:\sts-workspace\o2o\target\classes started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 18:52:45.074 [main] INFO  com.wjj.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2018-04-16 18:52:47.426 [main] INFO  com.wjj.o2o.O2oApplication - Started O2oApplication in 2.586 seconds (JVM running for 3.274)
-2018-04-16 18:58:26.550 [main] INFO  com.wjj.o2o.O2oApplication - Starting O2oApplication on DESKTOP-IPQA30K with PID 7408 (D:\sts-workspace\o2o\target\classes started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 18:58:26.553 [main] INFO  com.wjj.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2018-04-16 18:58:28.922 [main] INFO  com.wjj.o2o.O2oApplication - Started O2oApplication in 2.598 seconds (JVM running for 3.246)
-2018-04-16 19:09:23.320 [main] INFO  com.wjj.o2o.O2oApplication - Starting O2oApplication on DESKTOP-IPQA30K with PID 5484 (D:\sts-workspace\o2o\target\classes started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 19:09:23.324 [main] INFO  com.wjj.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2018-04-16 19:09:25.731 [main] INFO  com.wjj.o2o.O2oApplication - Started O2oApplication in 2.641 seconds (JVM running for 3.264)
-2018-04-16 19:17:58.913 [main] INFO  com.wjj.o2o.O2oApplication - Starting O2oApplication on DESKTOP-IPQA30K with PID 12528 (D:\sts-workspace\o2o\target\classes started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 19:17:58.921 [main] INFO  com.wjj.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2018-04-16 19:19:24.422 [main] INFO  com.wjj.o2o.O2oApplication - Starting O2oApplication on DESKTOP-IPQA30K with PID 11168 (D:\sts-workspace\o2o\target\classes started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 19:19:24.428 [main] INFO  com.wjj.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2018-04-16 19:19:27.437 [main] INFO  com.wjj.o2o.O2oApplication - Started O2oApplication in 3.317 seconds (JVM running for 4.2)
-2018-04-16 19:35:13.583 [main] INFO  com.wjj.o2o.O2oApplication - Starting O2oApplication on DESKTOP-IPQA30K with PID 6028 (D:\sts-workspace\o2o\target\classes started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 19:35:13.586 [main] INFO  com.wjj.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2018-04-16 19:35:16.004 [main] INFO  com.wjj.o2o.O2oApplication - Started O2oApplication in 2.683 seconds (JVM running for 3.369)
-2018-04-16 19:44:43.696 [main] INFO  com.wjj.o2o.O2oApplication - Starting O2oApplication on DESKTOP-IPQA30K with PID 216 (D:\sts-workspace\o2o\target\classes started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 19:44:43.700 [main] INFO  com.wjj.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2018-04-16 19:44:46.265 [main] INFO  com.wjj.o2o.O2oApplication - Started O2oApplication in 2.806 seconds (JVM running for 3.449)
-2018-04-16 19:59:13.835 [main] INFO  com.wjj.o2o.O2oApplication - Starting O2oApplication on DESKTOP-IPQA30K with PID 3752 (D:\sts-workspace\o2o\target\classes started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 19:59:13.842 [main] INFO  com.wjj.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2018-04-16 19:59:16.324 [main] INFO  com.wjj.o2o.O2oApplication - Started O2oApplication in 2.728 seconds (JVM running for 3.371)
-2018-04-16 20:08:58.410 [main] INFO  com.wjj.o2o.O2oApplication - Starting O2oApplication on DESKTOP-IPQA30K with PID 8652 (D:\sts-workspace\o2o\target\classes started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 20:08:58.414 [main] INFO  com.wjj.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2018-04-16 20:09:00.903 [main] INFO  com.wjj.o2o.O2oApplication - Started O2oApplication in 2.729 seconds (JVM running for 3.381)
-2018-04-16 20:13:19.668 [main] INFO  com.wjj.o2o.O2oApplication - Starting O2oApplication on DESKTOP-IPQA30K with PID 11356 (D:\sts-workspace\o2o\target\classes started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 20:13:19.672 [main] INFO  com.wjj.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2018-04-16 20:13:22.117 [main] INFO  com.wjj.o2o.O2oApplication - Started O2oApplication in 2.686 seconds (JVM running for 3.337)
-2018-04-16 20:14:51.595 [main] INFO  com.wjj.o2o.O2oApplication - Starting O2oApplication on DESKTOP-IPQA30K with PID 18888 (D:\sts-workspace\o2o\target\classes started by 82712 in D:\sts-workspace\o2o)
-2018-04-16 20:14:51.598 [main] INFO  com.wjj.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2018-04-16 20:14:54.102 [main] INFO  com.wjj.o2o.O2oApplication - Started O2oApplication in 2.742 seconds (JVM running for 3.374)
-2018-04-16 20:15:45.374 [http-nio-8080-exec-1] INFO  com.wjj.o2o.utils.baidu.ShortNetAddress - response string: {"status":-1,"err_msg":"","longurl":""}
-2018-04-16 20:17:27.890 [http-nio-8080-exec-8] INFO  com.wjj.o2o.utils.baidu.ShortNetAddress - response string: {"tinyurl":"http:\/\/dwz.cn\/7NAaMr","status":0,"longurl":"https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxd7f6c5b8899fba83&redirect_uri=120.77.255.10/o2o/shop/adduserproductmap&response_type=code&scope=snsapi_userinfo&state={"productId":15,"customerId":9,"createTime":1523881047684}#wechat_redirect","err_msg":""}
-2018-04-16 20:17:27.898 [http-nio-8080-exec-8] INFO  com.wjj.o2o.utils.baidu.ShortNetAddress - tinyurl: null
-2018-04-16 20:17:36.042 [http-nio-8080-exec-10] INFO  com.wjj.o2o.utils.baidu.ShortNetAddress - response string: {"status":-1,"err_msg":"","longurl":""}
+2018-04-18 18:57:04.791 [main] INFO  com.wjj.o2o.O2oApplication - Starting O2oApplication on DESKTOP-IPQA30K with PID 12468 (D:\sts-workspace\o2o\target\classes started by 82712 in D:\sts-workspace\o2o)
+2018-04-18 18:57:04.825 [main] INFO  com.wjj.o2o.O2oApplication - No active profile set, falling back to default profiles: default
+2018-04-18 18:57:08.937 [main] INFO  com.wjj.o2o.O2oApplication - Started O2oApplication in 4.469 seconds (JVM running for 6.661)
+2018-04-18 20:34:40.414 [main] INFO  com.wjj.o2o.dao.AwardDaoTest - Starting AwardDaoTest on DESKTOP-IPQA30K with PID 7612 (started by 82712 in D:\sts-workspace\o2o)
+2018-04-18 20:34:40.418 [main] INFO  com.wjj.o2o.dao.AwardDaoTest - No active profile set, falling back to default profiles: default
+2018-04-18 20:34:45.670 [main] INFO  com.wjj.o2o.dao.AwardDaoTest - Started AwardDaoTest in 5.598 seconds (JVM running for 9.973)
+2018-04-18 20:37:11.968 [main] INFO  com.wjj.o2o.dao.AwardDaoTest - Starting AwardDaoTest on DESKTOP-IPQA30K with PID 14844 (started by 82712 in D:\sts-workspace\o2o)
+2018-04-18 20:37:11.972 [main] INFO  com.wjj.o2o.dao.AwardDaoTest - No active profile set, falling back to default profiles: default
+2018-04-18 20:37:16.716 [main] INFO  com.wjj.o2o.dao.AwardDaoTest - Started AwardDaoTest in 5.19 seconds (JVM running for 6.499)
+2018-04-18 20:38:28.128 [main] INFO  com.wjj.o2o.dao.AwardDaoTest - Starting AwardDaoTest on DESKTOP-IPQA30K with PID 10480 (started by 82712 in D:\sts-workspace\o2o)
+2018-04-18 20:38:28.132 [main] INFO  com.wjj.o2o.dao.AwardDaoTest - No active profile set, falling back to default profiles: default
+2018-04-18 20:38:33.018 [main] INFO  com.wjj.o2o.dao.AwardDaoTest - Started AwardDaoTest in 5.243 seconds (JVM running for 6.675)
+2018-04-18 20:39:15.791 [main] INFO  com.wjj.o2o.dao.AwardDaoTest - Starting AwardDaoTest on DESKTOP-IPQA30K with PID 2188 (started by 82712 in D:\sts-workspace\o2o)
+2018-04-18 20:39:15.795 [main] INFO  com.wjj.o2o.dao.AwardDaoTest - No active profile set, falling back to default profiles: default
+2018-04-18 20:39:20.413 [main] INFO  com.wjj.o2o.dao.AwardDaoTest - Started AwardDaoTest in 4.989 seconds (JVM running for 6.391)
+2018-04-18 20:42:37.194 [main] INFO  com.wjj.o2o.dao.AwardDaoTest - Starting AwardDaoTest on DESKTOP-IPQA30K with PID 11280 (started by 82712 in D:\sts-workspace\o2o)
+2018-04-18 20:42:37.202 [main] INFO  com.wjj.o2o.dao.AwardDaoTest - No active profile set, falling back to default profiles: default
+2018-04-18 20:42:41.919 [main] INFO  com.wjj.o2o.dao.AwardDaoTest - Started AwardDaoTest in 5.056 seconds (JVM running for 6.51)

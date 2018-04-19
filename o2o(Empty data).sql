@@ -1,7 +1,7 @@
 /*
  Navicat MySQL Data Transfer
 
- Source Server         : rootAliyun
+ Source Server         : 120.77.255.10
  Source Server Type    : MySQL
  Source Server Version : 50721
  Source Host           : 120.77.255.10:3306
@@ -11,7 +11,7 @@
  Target Server Version : 50721
  File Encoding         : 65001
 
- Date: 17/04/2018 17:31:29
+ Date: 19/04/2018 19:57:01
 */
 
 SET NAMES utf8mb4;
@@ -49,7 +49,7 @@ CREATE TABLE `tb_award`  (
   PRIMARY KEY (`award_id`) USING BTREE,
   INDEX `fk_award_shop_idx`(`shop_id`) USING BTREE,
   CONSTRAINT `fk_award_shop_idx` FOREIGN KEY (`shop_id`) REFERENCES `tb_shop` (`shop_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 7 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Table structure for tb_head_line
@@ -99,7 +99,7 @@ CREATE TABLE `tb_person_info`  (
   `last_edit_time` datetime(0) NULL DEFAULT NULL,
   `enable_status` int(2) NOT NULL DEFAULT 0,
   PRIMARY KEY (`user_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 17 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 18 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Table structure for tb_product
@@ -318,6 +318,6 @@ CREATE TABLE `tb_wechat_auth`  (
   INDEX `fk_oauth_profile`(`user_id`) USING BTREE,
   INDEX `uk_oauth`(`open_id`(255)) USING BTREE,
   CONSTRAINT `fk_oauth_profile` FOREIGN KEY (`user_id`) REFERENCES `tb_person_info` (`user_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE = InnoDB AUTO_INCREMENT = 13 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 14 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Dynamic;
 
 SET FOREIGN_KEY_CHECKS = 1;
